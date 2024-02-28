@@ -1,8 +1,8 @@
-/* Add your CSS styles here */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
 }
 
 header {
@@ -10,6 +10,24 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.header-text {
+    text-align: left;
 }
 
 nav ul {
@@ -33,6 +51,13 @@ main {
 
 section {
     margin-bottom: 30px;
+}
+
+.project {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 footer {
