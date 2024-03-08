@@ -64,7 +64,7 @@ body{
 }
 
 .logo .fa-bolt {
-  color: #114087;
+  color: #1E90FF;
   font-size: 19.5px;
   position: absolute; 
   top: 60%;
@@ -83,28 +83,37 @@ body{
   margin-right: auto; 
 }  
 
-.header ul{
-  display: flex;
-  align-items: center; 
+/* Updated CSS for Navigation Centering */
+.header ul {
+    display: flex;
+    justify-content: center; /* Centering the navigation */
+    align-items: center;
 }
-.header ul li{
-  margin: 0 15px;
+
+.header ul li {
+    margin: 0 15px;
+    text-align: center;
 }
-.header ul li a{
-  text-transform: capitalize;
-  display: block;
+
+.header ul li a {
+    text-transform: capitalize;
+    display: block;
+    padding: 10px 15px; /* Adding padding for better spacing */
 }
-.header ul li a.active{
-  color: #114087;
-} 
-.header ul li a:hover{
-  color:#114087;
+
+.header ul li a.active {
+    color: #1E90FF;
 }
-.header .menu_icon{
-  color:#fff;
-  font-size: 18px;
-  cursor: pointer;
-  display: none;
+
+.header ul li a:hover {
+    color: #1E90FF;
+}
+
+.header .menu_icon {
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    display: none;
 }
 
 
@@ -122,11 +131,11 @@ body{
 }
 
 .FirstElement .profile-photo{
-  width: 300px;
-  height:  300px;
+  width: 450px;
+  height:  450px;
   border-radius: 50%;
   overflow: hidden;
-  border: 15px solid #444444;
+  border: 15px solid #1E90FF;
   box-shadow: 5px 7px 25px rgba(0, 0, 0, 0.5)
 }
 profile-photo .img{
@@ -147,11 +156,12 @@ profile-photo .img{
   font-size: 20px;
 }
 .profile-text h1{
-  color: #114087;
+  color: #1E90FF;
   font-size: 4rem; 
 }
 .profile-text p{
   color:#e5e5e5;
+  font-size: 20px;
 }
 .profile-text .social i{
   color : #e5e5e5;
@@ -160,11 +170,9 @@ profile-photo .img{
   transition: 0.5s;
 }
 .profile-text .social i:hover{
-  color:#114087;
+  color:#1E90FF;
   transform: rotate(360deg);
 }
-
-
 
  /*---------------------------About---------------------------*/
 
@@ -179,10 +187,11 @@ profile-photo .img{
   margin-bottom:50px;
 }
 .about-content{
+  font-size: 20px;
   flex-basis: 60%;
 }
 .about-content h4{
-  color: #114087;
+  color: #1E90FF;
   font-size: 40px;
   line-height: 70px;
   text-transform: capitalize;
@@ -231,7 +240,7 @@ profile-photo .img{
   box-shadow: 0 10px 10px -8px rgb(0 0 0 / 78%);
 }
 .btn.active{
-  border-color: #114087;
+  border-color: #1E90FF;
 }
 
 
@@ -245,7 +254,7 @@ profile-photo .img{
 }
 
 .education-content .title{
-  color: #114087;
+  color: #1E90FF;
 }
 .education-content .row .education,
 .education-content .row .internship
@@ -292,7 +301,7 @@ profile-photo .img{
   height: 100%;
   left: 7px;
   top: 0;
-  background-color: #114087; 
+  background-color: #1E90FF; 
 }
 .education-content .row .circle-dot{
   position: absolute;
@@ -322,8 +331,9 @@ profile-photo .img{
 
 
 /*---------------------------Projects---------------------------*/
+
 .project-content{
-  padding: 90px 0;
+  padding: 200px 0 90px;
   /* color:#fff;  */
 }
 .project-title{
@@ -334,7 +344,7 @@ profile-photo .img{
   text-transform: uppercase;
   font-size: 40px;
   line-height: 40px;
-  color: #114087;
+  color: #1E90FF;
   margin-bottom: 20px;
 }
 .project-title p{
@@ -358,7 +368,7 @@ profile-photo .img{
     transition: .3s;
 }
 .project i{
-  background-color: #114087;
+  background-color: #1E90FF;
   width: 60px;
   height: 60px;
   color: #333;
@@ -374,13 +384,18 @@ profile-photo .img{
 .project p{
   text-align: justify;
 }
+.project a {
+  display: block;
+  color: #1E90FF;
+}
 .project:hover{
-  border-color: #114087;
+  border-color: #1E90FF;
 }
 
 
+
 /*---------------------------Contact Me---------------------------*/
-.contact-content{
+/* .contact-content{
   padding: 100px 0;
   color: #fff;
   text-align: center;
@@ -388,7 +403,7 @@ profile-photo .img{
 .contact-content .contact-title h4{
   font-size: 40px;
   text-transform: capitalize;
-  color: #114087;
+  color: #1E90FF;
   padding-bottom: 10px;
 }
 .contact-content .contact-title p{
@@ -407,7 +422,7 @@ profile-photo .img{
 
 .contact .submit{
   width: auto;
-  background-color: #114087;
+  background-color: #1E90FF;
   padding: 10px 40px;
   font-weight:bold ;
   font-size: 18px;
@@ -421,12 +436,7 @@ profile-photo .img{
   font-size: 20px;
   margin-top: -8px;
   display: block;
-}
-
-
-
-
-
+} */
 
 /*---------------------------Footer---------------------------*/
 .footer {
