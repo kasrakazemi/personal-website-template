@@ -1,4 +1,4 @@
-Simple Static Website Template
+#Simple Static Website Template
 This repository contains a straightforward template for building static one-page websites using HTML, CSS, and JavaScript.
 
 Features
