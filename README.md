@@ -23,4 +23,3 @@ This project is licensed under the [MIT License](LICENSE).
 
 Feel free to contribute, report issues, or suggest improvements!
 
-![20221117_111239](https://github.com/kasrakazemi/personal-website-template/assets/55986800/4babda19-7497-4ed1-bc20-83e1b2a1dbdf)
